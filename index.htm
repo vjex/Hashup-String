@@ -1,0 +1,55 @@
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="pajhome_md5.js"></script>
+<script type="text/javascript" src="pajhome_sha1.js"></script>
+<script type="text/javascript" src="pajhome_sha256.js"></script>
+<script type="text/javascript" src="crypto.js"></script>
+</head>
+
+<body>
+<div id="main">
+	
+
+	
+
+<div id="MD5StringDiv" class="fieldset margintop10px">
+
+
+<div class="tips_text tips_text1">
+<div id="result">Generate the hash of the string you input.</div>	   
+
+<textarea id="texts" rows="2" cols="20" onkeyup="v3X_();"></textarea>
+
+
+<div id="file_info">
+
+<div id="checksum_type2" class="line"><div class="lineLeft">Checksum type:</div>
+<div class="lineRight">
+<input class="radiobtn" name="checksum_type_2" id="md52" value="0" checked="checked" onclick="v3X_();" type="radio">MD5
+<input class="radiobtn marginleft6px" name="checksum_type_2" id="sha12" value="1" onclick="v3X_();" type="radio">SHA1
+<input class="radiobtn marginleft6px" name="checksum_type_2" id="sha2562" value="2" onclick="v3X_();" type="radio">SHA-256
+</div>
+</div>
+
+
+<div id="text_checksum" class="line"><div class="lineLeft">String hash:</div>
+<input class="hash_string_text" id="hash_string3" onclick="SelectAll('hash_string3');" type="text"  readonly placeholder="hash value">
+</div>
+
+</div>
+
+
+
+</div></div>    
+
+
+
+
+
+</div>
+
+
+
+<script type="text/javascript" src="calc.js"></script>
+
+
